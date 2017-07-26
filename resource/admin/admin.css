@@ -1,0 +1,96 @@
+/*!
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-6-4, 15:12:48
+    Author     : ljq
+*/
+ .self .page-header {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color -moz-use-text-color #44b549;
+    border-image: none;
+    border-style: none none none solid;
+    border-width: medium medium medium 0.3em;
+    font-size: 18px;
+    padding-left: 1em;
+}
+ .self .page-header {
+    padding-bottom: 0;
+}
+ .self .page-header:first-child {
+    margin-top: 0;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: #44b549;
+    border-color: #44b549;
+    color: #fff;
+}
+.nav.nav-tabs {
+    border-color: #44b549;
+    margin-bottom: 20px;
+}
+/*优化上传按钮*/
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file]{
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+
+.input-group:first-child > .btn-file/*, .input-group-btn:first-child > .dropdown-toggle, .input-group-btn:last-child > .btn-group:not(:last-child) > .btn, .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle)*/ {
+    display: table-cell;
+    border-right: 0px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+.nav.nav-inner-tabs {
+    border-color: #ddd;
+}
+.nav-inner-tabs > li.active > a, .nav-inner-tabs > li.active > a:hover, .nav-inner-tabs > li.active > a:focus {
+    background-color: #fff;
+    border-color: #ddd #ddd transparent;;
+    color: #555;
+}
+//多图片列表浮动展示
+.multi-img-details {
+    margin-top: 0.5em;
+}
+.multi-img-details .multi-item {
+    float: left;
+    height: 150px;
+    margin-right: 18px;
+    max-width: 150px;
+    position: relative;
+}
+.multi-img-details .multi-item img {
+    max-height: 150px;
+    max-width: 150px;
+}
+.multi-img-details .multi-item em {
+    position: absolute;
+    right: -14px;
+    top: 0;
+}
